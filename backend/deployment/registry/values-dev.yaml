@@ -1,6 +1,7 @@
 enablePostgres: false
 
 registry:
+  image: ftcpro.azurecr.io/digital-twin-registry:latest
   host: digital-twin-registry.dev.ftcpro.co
   dataSource:
     ## The url, user, and password parameter will be ignored if 'enablePostgres' is set to true.
