@@ -1,6 +1,7 @@
 enablePostgres: false
 
 registry:
+  containerPort: 4243
   image: ftcpro.azurecr.io/digital-twin-registry:latest
   host: digital-twin-registry.dev.ftcpro.co
   dataSource:
